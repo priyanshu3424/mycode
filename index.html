@@ -25,7 +25,145 @@
             <li>item 2</li>
             </ol>
 
-            
+            <p style="color: rgb(204, 0, 255); font-family: sans-serif;"> Hii My Name Is Kalpit </p><!--Style Attribute Inline CSS hai -->
+
+
+            <img src="/CLG_0137.jpg" height="900" width="500" alt="Promotion"><!-- Alt, width height-->
+   
+            <ol type="1" start="1" reversed><!--Lists--><!--reversed ke saath start nhi aayega--> <!-- ordered list-->
+               <li>Item 1 </li>
+   
+                   <ul>  
+                       <li>Item 1</li>
+                       <li>Item 2</li>
+                   </ul>
+   
+               <li>Item 2</li>
+   
+                   <ol type="1" start="2"> 
+                       <li>item 1</li>
+                       <li> item 2</li>
+                   </ol>
+   
+               <li>Item 3</li>
+            </ol>
+   
+            <ul>  <!-- Unordered List-->
+               <li>Item 1</li>
+               <li>Item 2</li>
+               </ul>
+   
+   
+               <dl> <!--description list title and data -->
+                   <dt>car</dt>
+                   <dd> bus </dd>
+                   <dt>car</dt>
+                   <dd> bus </dd>
+                   <dt>car</dt>
+                   <dd> bus </dd>  
+               </dl>
+   
+               <!-- text formatting -->
+               <p>x<sup>2</sup>+y<sup>2</sup>+2xy=(x+y) <sup>2</sup></p>
+               <p>log<sub>a</sub>1=0</p>
+               <p>log<sub>m<sup>n</sup></sub></p>
+   
+               <!--Text align-->
+               <p style="text-align: justify;">Birds are a group of warm-blooded vertebrates constituting the class Aves, characterised by feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a strong yet lightweight skeleton.</p>
+   
+   
+               <!-- text hyperlink -->
+               <a href=" https://google.com">Google</a>
+               <a href="/about.html">Google</a> <!--about page-->
+               <a href=" https://google.com" target="blank">tab change</a>
+               <a href="tel:7374987923">click here to call</a>
+               <a href="mailto:kalpit1411@gmail.com" target="_blank">Email</a>
+   
+               <!--Span Kisi Ko Effect Nhi Krta Inline Property CSS Property hai -->
+               <p style="color: green;">This Is <span style="color: red;">Para</span> </p>
+   
+   
+               <!-- Image Hyperlink--> 
+               <a href="https://google.com://" target="_blank"> <img src="/CLG_0137.jpg" width="200px"></a>
+   
+               <!--favicon-->
+               <head> <link rel="icon" href="Cantinia Black Front.ico"></head>
+   
+   
+   
+   
+               <!-- How to Make Table td for column tr for row and h for bold-->
+               <head><style> 
+                   table,th,td{
+                       border: 1px solid red;
+                       border-collapse: collapse;
+                   }
+   
+   
+   
+               </style>
+   
+   
+   
+               <table border="1" cellpadding="1" > <!--border for lines cellpadding For Space b/w border and content -->
+                   <tr><th>Name</th><th>Class</th><th>Roll no.</th> </tr>
+                   <tr><td>Kalpit</td><td>1</td><td>21</td> </tr>
+                   <tr><td>Kappu</td><td>2</td><td>22</td> </tr>
+                   <tr><td>Ji</td><td>3</td><td>23</td> </tr>
+   
+               </table>
+   
+   
+               <table style="width: 100%; text-align: justify;">
+                   <tr style="color: red; "><th style="width: 200px;">Name</th><th >Class</th><th>Roll no.</th> </tr>
+                   <tr><td><b>Kalpit</b></td><td>1</td><td>21</td> </tr>
+                   <tr style="background-color: red;"><td style="height: 100px;">Gunnu</td><td>2</td><td>22</td> </tr>
+                   <tr><td>Ji</td><td>3</td><td>23</td> </tr>
+   
+               </table>
+   
+               <table><tr><th>Name</th><th>Class</th><th>Roll no.</th> </tr>
+                   <tr><td>Kalpit</td><td>chouthwani</td><td>21</td> </tr>
+                   <tr><td>Kappu</td><td>2</td><td>malpani</td> </tr>
+                   <tr><td>Ji</td><td>3</td><td>hhe</td> </tr>
+               </table>
+   
+               <!-- Internal CSS dono ko Saath Likh Skte Hai means Inline and Internal Or Inline ko prority Milegi And Class CSS hai-->
+   
+                   <!-- <style>
+                   .abc{font-size: 100px; color: green;} 
+                   .xyz {color: rgb(25, 87, 180) !important;} 
+                   #myid { color: aqua;}
+                   </style> -->
+                   <p>heheehheheheheheehhehheheh</p>
+                   <p>heheehheheheheheehhehheheh</p>
+                   <p style="color: brown;">heheehheheheheheehhehheheh</p>
+                   <p>heheehheheheheheehhehheheh</p>
+   
+                   <!--Class Attribute-->
+                   <p class="xyz">heheehheheheheheehhehheheh</p>
+                   <p class="xyz">heheehheheheheheehhehheheh</p>
+                   <p class="abc xyz">heheehheheheheheehhehheheh</p> <!--Do class Define Ki Hai -->
+                   <p>heheehheheheheheehhehheheh</p>
+   
+                   <!--id attribute--> <!--external css-->
+                   <p id="myid">heheehheheheheheehhehheheh</p>
+                   <link rel="stylesheet" href="/CSS/mystyle.css">
+   
+   
+                   <!-- box model-->
+                   <p style="border-style: dashed; border-width: 2px; border-color: black; font-size: xx-large;">fnoiafafafafanfa</p>
+                   <p style="border: dashed 2px red; font-size: xx-large;">heheehheheheheheehhehheheh</p>
+   
+                   <table>
+                       <tr style="color: red; "><th style="width: 200px;">Name</th><th >Class</th><th>Roll no.</th> </tr>
+                       <tr><td><b>Kalpit</b></td><td>1</td><td>21</td> </tr>
+                       <tr style="background-color: red;"><td style="height: 100px;">Gunnu</td><td>2</td><td>22</td> </tr>
+                       <tr><td>Ji</td><td>3</td><td>23</td> </tr>
+   
+                   </table>
+                   <p style="padding: 10px 20px 30px 40px; border: 2px dashed black; font-size: 500%;">heheehheheheheheehhehheheh</p>
+   
 
     </body>
  </html>
